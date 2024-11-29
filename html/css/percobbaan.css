@@ -1,0 +1,112 @@
+@import url('https://fonts.google.com/share?selection.family=SUSE:wght@100..800');
+
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.header {
+    background-image: url(arikama.jpg);
+    padding: 20px;
+    text-align: center;
+    height: 200px;
+    color: black;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+    background: rgb(60,56,131);
+    background: rgb(7,212,215);
+    background: rgb(166,55,104);
+    background: rgb(55,166,152);
+    background: radial-gradient(circle, rgba(55,166,152,0.9417892156862745) 1%, rgba(17,20,24,1) 19%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    background-clip: margin-box;
+}
+
+.header p {
+    margin: 10px 0 0;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 900px;
+    margin: -130px auto;
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 11px;
+}
+
+.profile-picture img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #555;
+}
+
+.profile-info {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.profile-info h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.profile-info p {
+    margin: 5px 0 0;
+}
+
+.change-password-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.info-section {
+    /* display: flex; */
+    justify-content: space-between;
+}
+
+.personal-info, .social-info {
+    width: 95%;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+.personal-info {
+    margin-bottom: 20px;
+}
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.info-item {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+}

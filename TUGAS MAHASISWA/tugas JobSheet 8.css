@@ -1,0 +1,71 @@
+body {
+    background-color: #f7fafc;
+   }
+   .header {
+    background-color: #1f78c0;
+    text-align: center;
+    padding: 1rem;
+   }
+   .header h1 {
+    color: white;
+    font-size: 1.5rem;
+   }
+   .nav {
+    background-color: #ebf8ff;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+   }
+   .nav a {
+    color: black;
+    margin: 0 1rem;
+    text-decoration: none;
+   }
+   .content {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+   }
+   .card {
+    background-color: #0f69c2;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 75%;
+   }
+   .card h2 {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+   }
+   .card img {
+    border-radius: 0.5rem;
+   }
+   .card table {
+    width: 100%;
+   }
+   .card table tr {
+    background-color: #fed7d7;
+   }
+   .card table td {
+    padding: 0.5rem;
+   }
+   .description {
+    margin-top: 1rem;
+   }
+   .description h3 {
+    text-align: center;
+   }
+   .description .box {
+    border: 1px solid #1360b3;
+    padding: 1rem;
+    margin-top: 0.5rem;
+   }
+   .footer {
+    background-color: #de0f0f;
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: 1rem;
+   }
+
+
